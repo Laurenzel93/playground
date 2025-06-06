@@ -9,4 +9,11 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   
+  onSubmit() {
+    console.log('submitting');
+  }
+
+  onSubmitRegistration() {
+    console.log('submitting registration');
+  }
 }
